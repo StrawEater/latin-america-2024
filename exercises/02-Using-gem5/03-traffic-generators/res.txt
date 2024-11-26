@@ -1,0 +1,59 @@
+16 GiB/s, 50% Reads:
+Total bandwidth: 16.00 GiB/s
+Average latency: 23.81 ns
+
+16 GiB/s, 100% Reads:
+Total bandwidth: 16.00 GiB/s
+Average latency: 23.81 ns
+
+32 GiB/s, 50% Reads:
+Total bandwidth: 31.99 GiB/s
+Average latency: 23.80 ns
+
+32 GiB/s, 100% Reads:
+Total bandwidth: 31.99 GiB/s
+Average latency: 23.81 ns
+
+64 GiB/s, 50% Reads:
+Total bandwidth: 32.11 GiB/s
+Average latency: 25.67 ns
+
+64 GiB/s, 100% Reads:
+Total bandwidth: 32.11 GiB/s
+Average latency: 25.66 ns
+====================================================================
+Channeled Memory DDR4
+
+Random:
+16 GiB/s, 50% Reads:
+Total bandwidth: 15.93 GiB/s
+Average latency: 126.84 ns
+
+16 GiB/s, 100% Reads:
+Total bandwidth: 15.58 GiB/s
+Average latency: 115.89 ns
+
+64 GiB/s, 50% Reads:
+Total bandwidth: 18.49 GiB/s
+Average latency: 259.00 ns
+
+64 GiB/s, 100% Reads:
+Total bandwidth: 16.99 GiB/s
+Average latency: 251.70 ns
+
+Linear:
+16 GiB/s, 50% Reads:
+Total bandwidth: 12.05 GiB/s
+Average latency: 341.84 ns
+
+16 GiB/s, 100% Reads:
+Total bandwidth: 12.92 GiB/s
+Average latency: 320.61 ns
+
+64 GiB/s, 50% Reads:
+Total bandwidth: 12.19 GiB/s
+Average latency: 379.48 ns
+
+64 GiB/s, 100% Reads:
+Total bandwidth: 12.92 GiB/s
+Average latency: 323.51 ns
