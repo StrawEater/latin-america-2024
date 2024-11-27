@@ -1,0 +1,11 @@
+L1
+Total bandwidth: 63.97 GiB/s
+Average latency: 0.53 ns
+
+L2
+Total bandwidth: 63.63 GiB/s
+Average latency: 5.02 ns
+
+dd4
+Total bandwidth: 10.67 GiB/s
+Average latency: 95.29 ns

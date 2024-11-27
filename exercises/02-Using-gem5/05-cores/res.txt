@@ -1,0 +1,14 @@
+Atomic
+simInsts                                     33954546
+
+Timing
+simInsts                                     33954546
+
+Minor
+simInsts                                     33954565
+
+O3
+simInsts                                     33954546
+
+
+the

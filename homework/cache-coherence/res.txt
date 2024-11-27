@@ -1,0 +1,19 @@
+naive-native
+Time 1.34506 ms
+Time 2.72979 ms
+Time 1.67134 ms
+Time 2.58671 ms
+Time 0.462965 ms
+Time 0.515145 ms
+Time 2.59994 ms
+Time 0.483524 ms
+Time 2.7635 ms
+Time 0.542083 ms
+Time 2.50363 ms
+Time 2.68695 ms
+Time 0.99959 ms
+Time 2.66459 ms
+Time 2.66415 ms
+==========
+Mean = 1.8145978
+==========

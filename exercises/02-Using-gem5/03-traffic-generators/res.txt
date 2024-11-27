@@ -1,3 +1,4 @@
+Simple Memory
 16 GiB/s, 50% Reads:
 Total bandwidth: 16.00 GiB/s
 Average latency: 23.81 ns
@@ -27,7 +28,7 @@ Channeled Memory DDR4
 Random:
 16 GiB/s, 50% Reads:
 Total bandwidth: 15.93 GiB/s
-Average latency: 126.84 ns
+Average latency: 126.84 nsa scoreboard to avoi
 
 16 GiB/s, 100% Reads:
 Total bandwidth: 15.58 GiB/s
@@ -57,3 +58,76 @@ Average latency: 379.48 ns
 64 GiB/s, 100% Reads:
 Total bandwidth: 12.92 GiB/s
 Average latency: 323.51 ns
+====================================================================
+1 Channel Memory LPDDR5
+
+Random:
+16 GiB/s, 50% Reads:
+Total bandwidth: 10.42 GiB/s
+Average latency: 393.84 ns
+
+16 GiB/s, 100% Reads:
+Total bandwidth: 11.15 GiB/s
+Average latency: 370.20 ns
+
+64 GiB/s, 50% Reads:
+Total bandwidth: 10.46 GiB/s
+Average latency: 410.66 ns
+
+64 GiB/s, 100% Reads:
+Total bandwidth: 11.16 GiB/s
+Average latency: 370.88 ns
+
+Linear:
+16 GiB/s, 50% Reads:
+Total bandwidth: 8.76 GiB/s
+Average latency: 449.05 ns
+
+16 GiB/s, 100% Reads:
+Total bandwidth: 11.10 GiB/s
+Average latency: 371.97 ns
+
+64 GiB/s, 50% Reads:
+Total bandwidth: 8.80 GiB/s
+Average latency: 474.75 ns
+
+64 GiB/s, 100% Reads:
+Total bandwidth: 11.10 GiB/s
+Average latency: 372.62 ns
+====================================================================
+4 Channel Memory LPDDR5
+
+Random:
+16 GiB/s, 50% Reads:
+Total bandwidth: 16.00 GiB/s
+Average latency: 100.49 ns
+
+16 GiB/s, 100% Reads:
+Total bandwidth: 16.00 GiB/s
+Average latency: 138.78 ns
+
+64 GiB/s, 50% Reads:
+Total bandwidth: 56.60 GiB/s
+Average latency: 126.56 ns
+
+64 GiB/s, 100% Reads:
+Total bandwidth: 43.75 GiB/s
+Average latency: 265.33 ns
+
+Linear:
+16 GiB/s, 50% Reads:
+Total bandwidth: 16.00 GiB/s
+Average latency: 160.51 ns
+
+16 GiB/s, 100% Reads:
+Total bandwidth: 16.00 GiB/s
+Average latency: 159.18 ns
+
+64 GiB/s, 50% Reads:
+Total bandwidth: 38.23 GiB/s
+Average latency: 185.18 ns
+
+64 GiB/s, 100% Reads:
+Total bandwidth: 44.31 GiB/s
+Average latency: 278.31 ns
+
