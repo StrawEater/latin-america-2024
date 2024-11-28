@@ -13,14 +13,14 @@ parser = argparse.ArgumentParser()
 parser.add_argument("rate", type=str, help="El rate del Generador")
 
 args = parser.parse_args()
-#generator = RandomGenerator(rate=args.rate, rd_perc=100, num_cores=1, max_addr=32768)
-generator = RandomGenerator(rate=args.rate, rd_perc=100, num_cores=1, max_addr=1_000_000_000)
+generator = RandomGenerator(rate=args.rate, rd_perc=100, num_cores=1, max_addr=16384)
+#generator = RandomGenerator(rate=args.rate, rd_perc=100, num_cores=1, max_addr=1_000_000_000)
 #generator = RandomGenerator(rate=args.rate, rd_perc=100, num_cores=1, max_addr=32768)
 
 
 memory = DualChannelDDR4_2400(size="1GiB")
 
-cache = PrivateL1PrivateL2SharedL3CacheHierarchy( l1d_size="32KiB",
+cache = PrivateL1PrivateL2SharedL3CacheHierarchy(l1d_size="32KiB",
                                                  l1i_size="32KiB",
                                                  l2_size="256KiB",
                                                  l3_size="2MiB",)

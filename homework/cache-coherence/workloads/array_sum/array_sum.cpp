@@ -77,7 +77,7 @@ int main(int argc, char* argv[])
     int threads = atoi(argv[2]);
 
     if (threads <= 0 || threads > std::thread::hardware_concurrency()) {
-        std::cout << "Threads must be above 0 and below 8" << std::endl;
+        std::cout << std::thread::hardware_concurrency() << std::endl;
         print_usage();
         return 3;
     }

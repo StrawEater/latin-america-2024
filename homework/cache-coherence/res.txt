@@ -15,5 +15,62 @@ Time 0.99959 ms
 Time 2.66459 ms
 Time 2.66415 ms
 ==========
-Mean = 1.8145978
+Mean = 1.8145978 ms
 ==========
+Chuncking-native
+Time 0.578392 ms
+Time 0.651079 ms
+Time 3.48822 ms
+Time 1.86043 ms
+Time 0.679206 ms
+Time 0.556008 ms
+Time 0.629708 ms
+Time 0.667191 ms
+Time 1.75262 ms
+Time 2.97089 ms
+Time 3.30407 ms
+Time 0.707718 ms
+Time 0.682926 ms
+Time 0.636106 ms
+Time 2.5181 ms
+==========
+Mean = 1.44551093333 ms
+==========
+res-race-opt-native
+Time 2.2909 ms
+Time 3.31477 ms
+Time 0.610685 ms
+Time 0.73637 ms
+Time 1.98149 ms
+Time 0.753684 ms
+Time 0.580788 ms
+Time 0.63135 ms
+Time 1.34156 ms
+Time 2.10215 ms
+Time 0.680254 ms
+Time 0.675821 ms
+Time 0.743201 ms
+Time 0.62643 ms
+Time 2.17464 ms
+===========
+Mean = 1.28293953333 ms
+===========
+all-opt-native
+Time 0.442289 ms
+Time 0.379365 ms
+Time 0.450278 ms
+Time 1.76154 ms
+Time 0.335843 ms
+Time 0.308981 ms
+Time 0.32541 ms
+Time 0.286198 ms
+Time 0.285628 ms
+Time 0.319932 ms
+Time 0.338228 ms
+Time 0.315436 ms
+Time 0.405353 ms
+Time 1.58211 ms
+Time 0.419352 ms
+===========
+Mean = 0.5303962 ms
+===========

@@ -79,16 +79,19 @@ class PrivateL1PrivateL2SharedL3CacheHierarchy(AbstractClassicCacheHierarchy):
     ## FILL THIS IN
     def incorporate_cache(self, board):
         board.connect_system_port(self.membus.cpu_side_ports)
-        for addrRange, port in board.memory.get_mem_ports():
-            port = self.membus.mem_side_ports
+        for _, port in board.get_memory().get_mem_ports():
+            self.membus.mem_side_ports = port
+
+
 
         self.l3Crossbar = L2XBar()
 
-        clusters = []
-        for core in board.get_processor().get_cores():
-            clusters.append(self._create_core_cluster(core,
-                                                      self.l3Crossbar,
-                                                      ISA.X86))
+        self.clusters = [
+            self._create_core_cluster(
+                core, self.l3Crossbar, board.get_processor().get_isa()
+            )
+            for core in board.get_processor().get_cores()
+        ]
 
         self.l3 = L3Cache(self._l3_size, self._l3_assoc)
         self.l3Crossbar.mem_side_ports = self.l3.cpu_side

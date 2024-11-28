@@ -1,0 +1,32 @@
+[
+    {
+        "category": "binary",
+        "id": "binary-matrix-multiplication",
+        "description": "Matrix multiplication",
+        "architecture": "X86",
+        "tags": ["Matrix"],
+        "source": "",
+        "url": "file///workspaces/latin-america-2024/exercises/02-Using-gem5/06-custom-benchamarks/matrix-multiply/matrix-multiply",
+        "license": "",
+        "author": ["Juan Ignacio Bustos Gorostegui"],
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "24.0.0.0"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "run-matrix-multiplication",
+        "function": "set_se_binary_workload",
+        "resources":{
+            "binary":{
+                "id": "binary-matrix-multiplication",
+                "resource_version": "1.0.0"
+            }
+        },
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "24.0.0.0"
+        ]
+    }
+]
